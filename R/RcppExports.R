@@ -6,7 +6,3 @@ b1 <- function(a, b) {
     .Call(`_db_b1`, a, b)
 }
 
-rcpp_hello_world <- function() {
-    .Call(`_db_rcpp_hello_world`)
-}
-
